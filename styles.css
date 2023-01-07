@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+} */
+
+
+body{
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #0c192c; */
+    margin: 0;
+    padding: 0;
+    /* height: 100vh; */
+    box-sizing: border-box;
+}
+
+#particles-js {
+    
+    background: #23242a;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+
+}
+
+.container{
+    width: 700px;
+    background: #23242a;
+    padding: 30px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+    position: absolute;
+    
+}
+
+
+.wrapper{
+    border: 1px solid #23242a;
+    border-radius: 4px;
+    position: relative;
+    
+    
+}
+.wrapper .text-input{
+    display: flex;
+    border-bottom: 1px solid #23242a;
+
+
+}
+
+.text-input .from-to{
+    /* border-left: 1px solid #bbb; */
+    border-radius: 0px ;
+    color: #bbb;
+    /* background: none; */
+}
+.text-input .from-to{
+    background: #23242a;
+}
+
+.text-input textarea{
+     height: 250px;
+     width: 100%;
+     border: none;
+     outline: none;
+     resize: none;
+     /* background: none; */
+     border-radius: 4px;
+     padding: 5px 5px;
+     font-size: 18px;
+     
+    
+    
+}
+
+.controls{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 1rem;
+}
+.controls, li, .icons, .icons i {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.controls .row.from .icons{
+    border-right: 1px solid #bbb;
+    padding-right: 15px;
+}
+.controls .row.to .icons{
+    border-left: 1px solid #bbb;
+    padding-left: 15px;
+}
+.controls .icons{
+    width: 48%;
+}
+.controls .icons i{
+    color: #8f8f8f;
+    cursor: pointer;
+    font-size: 15px;
+    width: 50px;
+    justify-content: center;
+}
+
+.controls .exchange{
+    color: #8f8f8f;
+    cursor: pointer;
+    background: none;
+}
+
+.controls .row select{
+    border: none;
+    outline: none;
+    background: #23242a;
+    color: #bbb;
+
+}
+
+.container button{
+    width: 100%;
+    padding: 0.75rem;
+    font-weight: 700;
+    border: none;
+    margin-top: 10px;
+    outline: none;
+    background: #2c76c6;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
